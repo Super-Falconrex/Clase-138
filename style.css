@@ -1,0 +1,126 @@
+
+
+
+
+#instrucciones{
+    float: right;
+    border: 1px solid white;
+    background-color: blue;
+}
+
+
+h4
+{
+   background-color: red;
+   line-height: 2;
+   margin: 0px;
+}
+
+
+#div-instrucciones{
+    background-color: green;
+    height: 55px;
+}
+
+
+#jugar{
+    background-color: red;
+    color: darkblue;
+}
+
+
+h3{
+    background-color: pink;
+    color: yellow;
+    width: 160px;
+}
+
+
+img{
+    width: 100%;
+}
+
+
+h2{
+    background-color: lightblue;
+    color: gold;
+    width: 180px;
+    border-radius: 2000px;
+}
+
+
+button{
+    border-radius: 2000px;
+    margin: 20px;
+}
+
+
+.custom-btn{
+    width: 130px;
+    height: 40px;
+    color: white;
+    padding: 10px 25px;
+    font-weight: 500;
+    background: transparent;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px blue, 7px 7px 20px 0px goldenrod, 4px 4px 5px 0px silver;
+    outline: none;
+}
+
+
+.btn-3{
+    background: lightblue;
+    color: green;
+    background: linear-gradient(0deg, blue 0%, darkblue 100%);
+    width: 130px;
+    height: 40px;
+    padding: 0;
+    border: none;
+}
+
+
+.btn-3 span{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.btn-3:before, .btn-3:after{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: silver;
+    transition: all 0.3 ease;
+}
+
+
+.btn-3:before{
+    height: 0%;
+    width: 2px;
+}
+
+
+.btn-3:after{
+    width: 0%;
+    height: 2px;
+}
+
+
+.btn-3:hover{
+    background: black;
+    box-shadow: none;
+}
+
+
+.btn-3:hover:before{
+    height: 100%;
+}
+
+
+.btn-3:hover:after{
+    width: 100%;
+}
